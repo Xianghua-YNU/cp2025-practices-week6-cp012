@@ -2,8 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import animation
 def sineWaveZeroPhi(x, t, A, omega, k):
-    sin=np.sin(k*x-omega*t)
-    return A*sin
+    
+    return A*np.sin(k*x-omega*t)
 # 创建动画所需的 Figure 和 Axes
 fig = plt.figure(figsize=(10,6))
 subplot = plt.axes(xlim=(0, 10), xlabel="x", ylim=(-2, 2), ylabel="y")
