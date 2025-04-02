@@ -69,7 +69,7 @@ def plot_newton_rings(intensity):
     # 添加颜色条
     plt.colorbar(label='Intensity')
     # 设置标题
-    plt.title(title)
+    plt.title('Newton_rings')
     # 设置 x 轴标签
     plt.xlabel("x (m)")
     # 设置 y 轴标签
