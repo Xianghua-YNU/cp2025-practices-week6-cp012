@@ -26,7 +26,7 @@ def animate(i):
     k=np.pi/2
     t=0.01*i
     y1=sineWaveZeroPhi(x,t,A, omega, k)
-    y2=sineWaveZeroPhi(x,t, A, omega, -k)
+    y2=sineWaveZeroPhi(x,t, A, -omega, k)
     y3=y1+y2
     lines[0].set_data(x,y1)
     lines[1].set_data(x, y2)
