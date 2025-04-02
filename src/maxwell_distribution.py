@@ -132,5 +132,4 @@ if __name__ == "__main__":
     compare_methods("任务1: 0到vp", percentage_0_to_vp, percentage_0_to_vp_trap, vp)
     compare_methods("任务2: 0到3.3vp", percentage_0_to_3_3vp, percentage_0_to_3_3vp_trap, vp)
     compare_methods("任务3: 3×10^4到3×10^8", percentage_3e4_to_3e8, percentage_3e4_to_3e8_trap, vp)
-
     
