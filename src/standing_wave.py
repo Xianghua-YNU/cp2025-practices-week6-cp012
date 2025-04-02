@@ -5,7 +5,7 @@ def sineWaveZeroPhi(x, t, A, omega, k):
     sin=np.sin(k*x-omega*t)
     return A*sin
 # 创建动画所需的 Figure 和 Axes
-fig = plt.figure()
+fig = plt.figure(figsize=(10,6))
 subplot = plt.axes(xlim=(0, 10), xlabel="x", ylim=(-2, 2), ylabel="y")
 
 # 创建空的line对象，用于动画显示
